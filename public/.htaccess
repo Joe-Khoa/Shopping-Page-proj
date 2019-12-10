@@ -1,0 +1,23 @@
+RewriteEngine On
+    
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php?url=$1 
+# any url at least a character replaced by index.php
+# RewriteRule ^404.html$ 404.php
+# RewriteRule ^(.+).html$
+
+
+
+
+
+# ^: bat dau 1 chuoi regular expression
+# $: ket thuc 1 chuoi regular expression
+# (): 1 chuoi regular expression
+# [a-zA-Z0-9]
+# /: \/
+# .: \.
+# +: bat buoc co it nhat 1 ki tu trong chuoi regular expression
+
+# iphone-x-64gb-gray
