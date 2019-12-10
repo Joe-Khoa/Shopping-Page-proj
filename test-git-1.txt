@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 khoapham
 20 tran nhan ton abc1fsdfs
-=======
-khoapham
->>>>>>> parent of 1331f25... change file text-test-1
